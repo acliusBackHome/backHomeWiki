@@ -10,7 +10,3 @@ features:
   details: SPA文档
 footer: Copyright © 2018-present aclius
 ---
-
-# Hello acliusBackHome
-
-This is wiki for acliusBackHome

@@ -5,7 +5,8 @@ module.exports = {
   themeConfig: {
     sidebar: [
       '/',
-      '/docs/aclius'
+      '/docs/aclius',
+      '/docs/ProgrammingWithCpp'
     ]
   }
 }
