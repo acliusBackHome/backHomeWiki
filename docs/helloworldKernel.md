@@ -2,7 +2,7 @@
 
 > 说明：这原本是高中时期的一个实验项目。
 
-## Part one
+## Part One
 
 这一部分是原定的实现方式。
 参考 [原文](https://arjunsreedharan.org/post/82710718100/kernel-101-lets-write-a-kernel) ，或者 [译文](http://blog.jobbole.com/79249/) 。
@@ -60,3 +60,8 @@ menuentry 'kernelMAKI' {
 ### end
 
 重启后即可在grub引导列表中找到```kernelMAKI```。
+
+## Part Two
+
+参考 [知乎](https://www.zhihu.com/question/49580321/answer/287557834) 。
+编译链接生成elf文件，使用qemu模拟运行。
