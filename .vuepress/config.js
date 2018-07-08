@@ -6,7 +6,8 @@ module.exports = {
     sidebar: [
       '/',
       '/docs/aclius',
-      '/docs/ProgrammingWithCpp'
+      '/docs/ProgrammingWithCpp',
+      '/docs/helloworldKernel'
     ]
   }
 }
