@@ -7,7 +7,8 @@ module.exports = {
       '/',
       '/docs/aclius',
       '/docs/ProgrammingWithCpp',
-      '/docs/helloworldKernel'
+      '/docs/helloworldKernel',
+      '/docs/ReSE0x0'
     ]
   }
 }
