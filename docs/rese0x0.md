@@ -1,5 +1,5 @@
 ---
-title: 'Re: Life in software engineering from zero'
+title: 'Re: Life in software engineering from zero: 0x0'
 date: 2018-07-30 21:43:44
 tags: Re
 ---
