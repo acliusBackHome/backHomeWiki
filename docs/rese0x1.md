@@ -4,9 +4,9 @@ date: 2018-10-22 21:43:44
 tags: Re
 ---
 
-# title: Re: Life in software engineering from zero  
-# 标题: Re: 从零开始的软工生活  
-# タイトル: Re: ゼロからのソフトウェアエンジニアリング
+# title: Re: Life in software engineering from zero: 0x1  
+# 标题: Re: 从零开始的软工生活: 0x1  
+# タイトル: Re: ゼロからのソフトウェアエンジニアリング: 0x1
 
 ### 主题
 

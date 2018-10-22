@@ -24,7 +24,9 @@ module.exports = {
         children: [
           '/docs/programmingwithcpp',
           '/docs/helloworldkernel',
-          '/docs/rese0x0'
+          '/docs/rese0x0',
+          '/docs/rese0x1',
+          '/docs/InfixCalc'
         ]
       }
     ]
