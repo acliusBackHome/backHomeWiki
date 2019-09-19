@@ -18,3 +18,23 @@
 1. 发言请符合wiki本体在地的法律。
 
 2. 发言请符合user本体在地的法律。
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+<div id="gitalk-container"></div>
+<script>
+window.addEventListener('load', function () {
+  window.gitalk = new Gitalk({
+    clientID: '934ea055f28220237c9c',
+    clientSecret: 'c774d9c05b1222e2b8c48b334fbf4e5a78cdf466',
+    repo: 'backHomeWiki',
+    owner: 'acliusBackHome',
+    admin: ['windring'],
+    id: location.pathname,      // Ensure uniqueness and length less than 50
+    distractionFreeMode: true  // Facebook-like distraction free mode
+  });
+  console.log(gitalk);
+  gitalk.render('gitalk-container');
+  console.log('hello gitalk');
+});
+</script>

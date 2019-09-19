@@ -2,7 +2,7 @@
 home: true
 heroImage: /aclius.png
 actionText: What is →
-actionLink: /docs/aclius
+actionLink: /docs/glut/glut0x0
 features:
 - title: acliusBackHome
   details: aclius 中立性组织
