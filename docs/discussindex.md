@@ -23,7 +23,6 @@
 <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
 <div id="gitalk-container"></div>
 <script>
-window.addEventListener('load', function () {
   window.gitalk = new Gitalk({
     clientID: 'e119b5732c915a788cf6',
     clientSecret: '4d3c6ee27911adc4ecfb92fbe81bbeda5f5d524a',
@@ -35,5 +34,4 @@ window.addEventListener('load', function () {
     distractionFreeMode: true  // Facebook-like distraction free mode
   });
   gitalk.render('gitalk-container');
-});
 </script>

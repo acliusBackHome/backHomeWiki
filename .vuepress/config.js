@@ -8,7 +8,6 @@ module.exports = {
       { text: '留言板', link: '/docs/discussindex'}
     ],
     sidebar: [
-      '/',
       {
         title: 'tech doc',
         children: [
