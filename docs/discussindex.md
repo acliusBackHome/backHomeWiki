@@ -25,16 +25,15 @@
 <script>
 window.addEventListener('load', function () {
   window.gitalk = new Gitalk({
-    clientID: '934ea055f28220237c9c',
-    clientSecret: 'c774d9c05b1222e2b8c48b334fbf4e5a78cdf466',
+    clientID: 'e119b5732c915a788cf6',
+    clientSecret: '4d3c6ee27911adc4ecfb92fbe81bbeda5f5d524a',
     repo: 'backHomeWiki',
     owner: 'acliusBackHome',
     admin: ['windring'],
+    labels: ['Gitalk'],
     id: location.pathname,      // Ensure uniqueness and length less than 50
     distractionFreeMode: true  // Facebook-like distraction free mode
   });
-  console.log(gitalk);
   gitalk.render('gitalk-container');
-  console.log('hello gitalk');
 });
 </script>
