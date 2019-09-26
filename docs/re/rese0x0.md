@@ -4,8 +4,8 @@ date: 2018-07-30 21:43:44
 tags: Re
 ---
 
-# title: Re: Life in software engineering from zero: 0x0  
-# 标题: Re: 从零开始的软工生活: 0x0  
+# title: Re: Life in software engineering from zero: 0x0
+# 标题: Re: 从零开始的软工生活: 0x0
 # タイトル: Re: ゼロからのソフトウェアエンジニアリング: 0x0
 
 本篇面向新生, 大角虫可以忽略, 如有不当, 欢迎指出.
@@ -24,13 +24,13 @@ Software Engineering, 简称 SE, 在我院也称 CS. SE 经常要面对十六进
 
 ## 0x01: 什么是 Software Engineering?
 
-从字面上理解是进行工程化的软件开发.  
-这个问题将会在大一第一学期由姜桂飞老师用一个学期的`计算机概论`课来详细解答.  
+从字面上理解是进行工程化的软件开发.
+这个问题将会在大一第一学期由姜桂飞老师用一个学期的`计算机概论`课来详细解答.
 推荐一本书: 《人月神话》
 
 ## 0x02: 操作系统
 
-当下的主流操作系统: 
+当下的主流操作系统:
 * Microsoft Windows
 * Unix / Linux
 * Mac
@@ -45,7 +45,7 @@ Software Engineering, 简称 SE, 在我院也称 CS. SE 经常要面对十六进
 
 操作系统不难写, 任何一个研究生甚至本科毕业生都有能力实现一个操作系统, 甚至可以做到比 Windows, Linux 更优秀, 但是操作系统不只是一个光盘的事情. 一个系统的普及需要一个不断建立并完善的生态, 需要有人写驱动, 写软件, 这需要钱和时间. 但是我们现在已经有了 Linux 和 Windows, 如果不出现大的问题, 不需要再重复造轮子.
 
-如果你想提前了解浅一些的知识和实现手段( 保证人人可以做到, 不需要本科毕业或是研究生学历 ), 可以查阅: 
+如果你想提前了解浅一些的知识和实现手段( 保证人人可以做到, 不需要本科毕业或是研究生学历 ), 可以查阅:
 * <https://www.zhihu.com/question/49580321/answer/287557834>
 * <http://blog.jobbole.com/79249/>
 
@@ -78,10 +78,10 @@ Unix 是一个非常成功的系统, 至今仍然运行在许多公司当中. Un
 
 ## 0x08: Linux
 
-提到 Linux 不得不提到`Minix`和`Linus`. 
+提到 Linux 不得不提到`Minix`和`Linus`.
 >Minix 是一个类 Unix 系统, 起初用于进行大学操作系统课程的教学.  Linus 在 Minix 发行后立即入手了一套, 但是 Minix 低于他的期望值, 于是 Linus 开始着手开发新系统的内核. 这便是 Linux 的诞生.
 
-以上内容来自于《Linus Torvalds 自传》. Intel 悄悄在自家芯片上广泛安装 Minix , 这是后话. 
+以上内容来自于《Linus Torvalds 自传》. Intel 悄悄在自家芯片上广泛安装 Minix , 这是后话.
 
 Linux 是开源的. 基于对 开源操作系统的渴求, 许多国家和地区的程序员参与到了 Linux 的开发当中, 贡献了自己的代码. 可以说, Linux 是世界的. 目前 Linux 有许多发行版本, 比较出名的有 CentOS, Ubuntu, Debian, 国内有魔改 Ubuntu 的 Kylin.
 
@@ -109,7 +109,7 @@ gcc, g++ 同属于 GCC(GNU Complier Collection). 一般使用 gcc 编译 C 的�
 
 ## 0x0e: IDE
 
-IDE, 集成开发环境. 一般包含了编译套件, 也有不包含编译套件的. IDE 提供了包含代码编辑, 编译链接, 调试测试, 版本管理等功能. 常见的 IDE: Visual Studio, CodeBlocks 等. 
+IDE, 集成开发环境. 一般包含了编译套件, 也有不包含编译套件的. IDE 提供了包含代码编辑, 编译链接, 调试测试, 版本管理等功能. 常见的 IDE: Visual Studio, CodeBlocks 等.
 
 不少代码编辑器虽然挂着编辑器的名字, 但是稍加配置就能成为功能强大的IDE, 比如: vim, sublime text, atom, visual studio code 等. 以上提到的 4 种编辑器生态都比较完整, 其中 atom 由 github 官方开源打造, visual studio code 由微软官方维护, 这两款比较现代化.
 
@@ -132,8 +132,8 @@ output:
 
 ## 0x10: ACM-ICPC
 
-ACM-ICPC, 通常称 ICPC. ACM, Association for Computing Machinery, 国际计算机协会. 
-ICPC, International Collegiate Programming Contest, 国际大学生程序设计竞赛. ICPC 的起点可以追溯到 unix元年, 也就是 1970 年. 现在的 ICPC 由 ACM 举办, 因此称 ACM-ICPC. 基本形式: 每队三人, 使用一台机器, 在五个小时内解决数道程序设计题目. ICPC 主要考察算法设计( 使用 )能力. ICPC 层层筛选, 从网络赛到现场赛, 从区域赛到国赛, 再到洲赛, 最后到世界总决赛. 通过重重考验的勇士将最终站在神话的顶峰 ( 虽然说冠军被北方某个数学很强的国家常年把持 ). 
+ACM-ICPC, 通常称 ICPC. ACM, Association for Computing Machinery, 国际计算机协会.
+ICPC, International Collegiate Programming Contest, 国际大学生程序设计竞赛. ICPC 的起点可以追溯到 unix元年, 也就是 1970 年. 现在的 ICPC 由 ACM 举办, 因此称 ACM-ICPC. 基本形式: 每队三人, 使用一台机器, 在五个小时内解决数道程序设计题目. ICPC 主要考察算法设计( 使用 )能力. ICPC 层层筛选, 从网络赛到现场赛, 从区域赛到国赛, 再到洲赛, 最后到世界总决赛. 通过重重考验的勇士将最终站在神话的顶峰 ( 虽然说冠军被北方某个数学很强的国家常年把持 ).
 * ICPC 的判题机制在下一条目介绍.
 * 现在 ICPC 现场赛的计算机统一安排 linux 的发行版 Ubuntu, 桌面软件为 Unity, 如果想感受比赛的氛围可以戳: <https://search.bilibili.com/all?keyword=ACM-ICPC>
 * ICPC 的题目编号一般为 ABCD 等按顺序的英文大写字母, 题目有标题, 通常比较正式的比赛的题目标题不会太调皮. 题量为 G 个题或以上. 题面为英文, 比较容易读懂, 比较正式的比赛的题面不会太调皮, 可能会配图, 画风通常比较亲民.
@@ -159,7 +159,7 @@ OJ, Online Judge. 用户向 OJ 提交相应题目的代码, OJ 在后台评判�
 * 状态. 显示提交到平台上的代码的测试情况.
 * 评测机. 即评测姬. 泛指一套编译链接执行用户提交代码, 比对用户代码输出和正确输出, 并返还状态的系统.
 
-题目是有时间和内存限制的, 也就是通常说的卡时间, 卡内存. 题目可能有多组测试数据, 也可能只有一组测试数据. 用户提交的代码长度通常也是有限制的, 但是一般不会影响正确解题. 用户在前端提交的代码, 通过网络传输到 OJ 后端. 代码将被评测机编译链接生成可执行文件, 可执行文件将被启动, 同时监视程序也将启动. 监视程序阻止危险指令的运行, 在程序执行时间空间超过限制时终止程序运行, 并记录程序的时间空间消耗. 题目的输入数据被重定向到程序中, 程序的输出被重定向到指定文件中. 如果运行无异常, 评测机将比对程序输出和正确输出, 然后将结果通过网络传输回用户前端.  
+题目是有时间和内存限制的, 也就是通常说的卡时间, 卡内存. 题目可能有多组测试数据, 也可能只有一组测试数据. 用户提交的代码长度通常也是有限制的, 但是一般不会影响正确解题. 用户在前端提交的代码, 通过网络传输到 OJ 后端. 代码将被评测机编译链接生成可执行文件, 可执行文件将被启动, 同时监视程序也将启动. 监视程序阻止危险指令的运行, 在程序执行时间空间超过限制时终止程序运行, 并记录程序的时间空间消耗. 题目的输入数据被重定向到程序中, 程序的输出被重定向到指定文件中. 如果运行无异常, 评测机将比对程序输出和正确输出, 然后将结果通过网络传输回用户前端.
 
 常见的评测结果:
 
@@ -173,8 +173,8 @@ OJ, Online Judge. 用户向 OJ 提交相应题目的代码, OJ 在后台评判�
 * Function Limit Execeeded. 使用了不被允许的函数.
 
 
-南开大学的 Online Judge 由 `南开大学ACM协会` 运行维护, 暂不向广域网开放.   
-南开新 OJ( 尚未完成题目迁移 ): <http://acm.nankai.edu.cn>  
+南开大学的 Online Judge 由 `南开大学ACM协会` 运行维护, 暂不向广域网开放.
+南开新 OJ( 尚未完成题目迁移 ): <http://acm.nankai.edu.cn>
 南开旧 OJ( 题量丰富 ): <http://acm.nankai.edu.cn/old>
 
 南开现存的OJ还有`nkcoj`, `南开大学软件学院OJ系统`.
@@ -224,7 +224,7 @@ int main(int argc, char **argv, char **envp){
 }
 ```
 * C++
-```C++
+```Cpp
 #include <iostream>
 using namespace std;
 int main(int argc, char **argv, char **envp){
@@ -235,7 +235,7 @@ int main(int argc, char **argv, char **envp){
 * cmd( windows )
 
 创建一个文本文件,编辑:
-```bat
+```bash
 @echo off
 @echo hello world
 pause

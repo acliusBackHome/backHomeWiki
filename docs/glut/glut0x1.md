@@ -1,4 +1,4 @@
-# Polyline Editor
+# Polyline Editor 0x1
 
 ## Description
 
@@ -20,7 +20,7 @@ The functionality of the program should include the following “actions”:
 
 ## Example
 
-```C++
+```Cpp
 #include <bits/stdc++.h>
 #include <windows.h>
 #include <GL/glut.h>
