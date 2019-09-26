@@ -1,6 +1,6 @@
 # OpenGL Utility Toolkit 0x0
 
-## WTD
+## Description
 
 Draw `f(x) = sin x / x, x ∈ [-20, 20]`, Using the following transform:
 
@@ -10,13 +10,13 @@ sy = Cy + D
 
 Do not use `gluOrtho2D`.
 
-## Step
+### Step
 
 * Header File: `GL.h  GLU.h  glut.h`
 * Library: `GlU32.Lib  glut32.lib  OpenGL32.Lib`
 * DLL: `glu32.dll  glut32.dll  opengl32.dll`
 
-## Code
+## Example
 
 ```Cpp
 #include <bits/stdc++.h>
