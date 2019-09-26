@@ -14,7 +14,8 @@ module.exports = {
           {
             title: 'glut',
             children: [
-              '/docs/glut/glut0x0'
+              '/docs/glut/glut0x0',
+              '/docs/glut/glut0x1',
             ]
           },
           {

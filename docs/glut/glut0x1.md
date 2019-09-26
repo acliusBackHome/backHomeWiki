@@ -42,9 +42,7 @@ struct BASE_CONFIG {
     float vp_h;
     float point_size;
     float flt_max;
-};
-
-BASE_CONFIG config = {
+} config = {
     windows_w: 600.0f,
     windows_h: 600.0f,
     windows_title: "hello world",
@@ -295,5 +293,4 @@ int main(int argc, char** argv, char** envp) {
 
     return 0;
 }
-
 ```
