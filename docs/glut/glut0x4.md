@@ -68,31 +68,31 @@ class JarvisMarch {
   int n, m;
   vector<Point> ch, ps;
  private:
-  int cross(const Point &o,const Point &a,const Point &b) { // Ë³Ê±ÕëÎªÕı
+  int cross(const Point &o,const Point &a,const Point &b) { // é¡ºæ—¶é’ˆä¸ºæ­£
     return -(a.x*b.y - a.x*o.y - o.x*b.y - a.y*b.x + a.y*o.x + o.y*b.x);
   }
-  int length2(const Point &a,const Point &b) { // ¾àÀëµÄÆ½·½
+  int length2(const Point &a,const Point &b) { // è·ç¦»çš„å¹³æ–¹
     return a.x*a.x-2*a.x*b.x+b.x*b.x+a.y*a.y-2*a.y*b.y+b.y*b.y;
   }
-  bool islb(const Point &a,const Point &b) { // aÊÇ·ñÔÚb×óÏÂ·½
+  bool islb(const Point &a,const Point &b) { // aæ˜¯å¦åœ¨bå·¦ä¸‹æ–¹
     return a.y<b.y||a.y==b.y&&a.x<b.x;
   }
   bool isfar(const Point &o,const Point &a,const Point &b) {
     return length2(a,o)>length2(b,o);
   }
-  int jarvis_march() { // ÇóÍ¹°üµ½ch
+  int jarvis_march() { // æ±‚å‡¸åŒ…åˆ°ch
     int start=0;
     for(int i=0; i<n; i++)
       if(islb(ps[i],ps[start]))
         start=i;
-    int m=0; // Í¹°ü¶¨µãÊı
+    int m=0; // å‡¸åŒ…å®šç‚¹æ•°
     ch.push_back(ps[start]);
     for(m=1; 1; m++) {
       int next=start;
       for(int i=0; i<n; i++) {
         int c=cross(ch[m-1],ps[i],ps[next]);
-        if(c>0 // ÄæÊ±Õë
-            ||c==0&&isfar(ch[m-1],ps[i],ps[next]) // Í¬Ò»Ö±Ïßµ«¸üÔ¶
+        if(c>0 // é€†æ—¶é’ˆ
+            ||c==0&&isfar(ch[m-1],ps[i],ps[next]) // åŒä¸€ç›´çº¿ä½†æ›´è¿œ
           )
           next=i;
       }
@@ -190,20 +190,20 @@ void myDrawInit() {
 }
 
 void myInit() {
-  glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB); // Ë«»º³å
+  glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGB); // åŒç¼“å†²
   glutInitWindowSize(config.windows_w, config.windows_h);
   glutCreateWindow(config.windows_title.c_str());
   glClearColor(1.0f, 1.0f, 1.0f, 0.0f);
   glColor3f(.0f, .0f, .0f); // black
   glPointSize(config.point_size);
-  glMatrixMode(GL_PROJECTION); // Í¶Ó°
-  glLoadIdentity(); // ¾ØÕóµ¥Î»»¯
+  glMatrixMode(GL_PROJECTION); // æŠ•å½±
+  glLoadIdentity(); // çŸ©é˜µå•ä½åŒ–
   gluOrtho2D(config.vp_x, config.vp_w, config.vp_y, config.vp_h);
   glutDisplayFunc(&myDisplay);
   glutMouseFunc(myMouseFunc);
   glutMotionFunc(myMotionFunc);
   glutKeyboardFunc(myKeyboardFunc);
-  glEnable(GL_DEPTH_TEST); // ¿ªÆôÉî¶È²âÊÔ
+  glEnable(GL_DEPTH_TEST); // å¼€å¯æ·±åº¦æµ‹è¯•
 }
 
 void genRandomLines() {
