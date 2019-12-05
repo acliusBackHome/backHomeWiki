@@ -1,4 +1,4 @@
-# Polyline Editor 0x1
+# Polyline Editor
 
 ## Description
 

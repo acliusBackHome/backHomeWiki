@@ -16,6 +16,10 @@ module.exports = {
             children: [
               '/docs/glut/glut0x0',
               '/docs/glut/glut0x1',
+              '/docs/glut/glut0x2',
+              '/docs/glut/glut0x3',
+              '/docs/glut/glut0x4',
+              '/docs/glut/glut0x5',
             ]
           },
           {
