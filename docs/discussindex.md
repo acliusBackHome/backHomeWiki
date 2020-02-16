@@ -1,3 +1,3 @@
 # 讨论
 
-<Vssue title="Vssue Comments" />
+<Vssue title="Discuss" />

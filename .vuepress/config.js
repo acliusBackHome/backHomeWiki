@@ -67,6 +67,7 @@ module.exports = {
 
       // 其他的 Vssue 配置
       owner: 'acliusBackHome',
+      admins: 'windring',
       repo: 'backHomeWiki',
       clientId: 'e119b5732c915a788cf6',
       clientSecret: '4d3c6ee27911adc4ecfb92fbe81bbeda5f5d524a',
