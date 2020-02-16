@@ -59,5 +59,17 @@ module.exports = {
         ]
       }
     ]
-  }
+  },
+  plugins: {
+    '@vssue/vuepress-plugin-vssue': {
+      // 设置 `platform` 而不是 `api`
+      platform: 'github',
+
+      // 其他的 Vssue 配置
+      owner: 'acliusBackHome',
+      repo: 'backHomeWiki',
+      clientId: 'e119b5732c915a788cf6',
+      clientSecret: '4d3c6ee27911adc4ecfb92fbe81bbeda5f5d524a',
+    },
+  },
 }
